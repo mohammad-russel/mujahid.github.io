@@ -1,0 +1,56 @@
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(189, 189, 189);
+  .toggle {
+    display: none;
+    .hide {
+      ion-icon {
+      }
+    }
+    .show {
+      ion-icon {
+      }
+    }
+  }
+  .logo {
+    h3 {
+        font-size: 23px;
+        color: rgb(39, 39, 39);
+    }
+  }
+  .menu {
+    ul {
+      a {
+        margin: 0px 10px;
+        text-decoration: none;
+        color: rgb(102, 102, 102);
+        font-weight: 600;
+        letter-spacing: 1.3px;
+      }
+    }
+  }
+  .linkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cart,
+    .user {
+      margin: 0px 7px;
+      a {
+      }
+      ion-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        border-radius: 50px;
+        border: 1px solid rgb(176, 186, 192);
+        padding: 5px;
+      }
+    }
+  }
+}
