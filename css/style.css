@@ -114,6 +114,10 @@
   border-radius: 4px;
 }
 
+body {
+  background: rgb(221, 226, 236);
+}
+
 .container {
   width: 100%;
   max-width: 1200px;

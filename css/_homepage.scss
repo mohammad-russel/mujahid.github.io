@@ -25,7 +25,7 @@
       flex-wrap: wrap;
       .card {
         width: 100px;
-      min-width: 160px;
+        min-width: 160px;
         padding: 1px;
         border: 1px solid rgb(146, 146, 146);
         border-radius: 5px;
@@ -44,16 +44,16 @@
           }
         }
         .name {
-            font-size: 10px;
-            color: rgb(42, 42, 42);
-            text-align: center;
-            letter-spacing: 0.3px;
+          font-size: 10px;
+          color: rgb(42, 42, 42);
+          text-align: center;
+          letter-spacing: 0.3px;
         }
         .price {
-            font-size: 14px;
-            color: rgb(81, 81, 81);
-            text-align: center;
-            font-weight: 600;
+          font-size: 14px;
+          color: rgb(81, 81, 81);
+          text-align: center;
+          font-weight: 600;
         }
         .addcart {
           .addtocart {
