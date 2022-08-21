@@ -1,0 +1,68 @@
+.farmbox {
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login,
+.registation {
+    height: 100%;
+  padding: 5px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  height: max-content;
+  .logo {
+    width: 50px;
+    aspect-ratio: 1/1;
+    margin: 10px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+  select,
+  input {
+    width: 100%;
+    max-width: 270px;
+    margin: 3px;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+   
+    outline: none;
+
+    option {
+      border: 1px solid white;
+      height: 100px;
+    }
+  }
+  .btn {
+    margin: 3px;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    max-width: 270px;
+    background: rgb(142, 142, 142);
+    color: aliceblue;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      background: rgb(35, 35, 35);
+    }
+  }
+}
+.registation {
+  display: none;
+}
