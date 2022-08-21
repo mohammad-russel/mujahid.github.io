@@ -7,22 +7,23 @@
 }
 
 .formbox {
-  border: 1px solid black;
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  border: 1px solid black;
 }
 
 .login,
 .registation {
+  box-shadow: 4px 4px 7px -1px #aeaeae, -4px -4px 7px -1px #ffffff;
   height: 100%;
   padding: 5px;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
   flex-direction: column;
   width: 100%;
   max-width: 300px;
@@ -50,10 +51,12 @@
 .registation input {
   width: 100%;
   max-width: 270px;
+  background: transparent;
   margin: 3px;
   border: none;
   padding: 7px;
   border-radius: 5px;
+  box-shadow: inset 1px 1px 4px -1px rgb(48, 48, 48), inset -1px -1px 4px 1px rgb(255, 255, 255);
   outline: none;
 }
 .login select option,
@@ -62,6 +65,13 @@
 .registation input option {
   border: 1px solid white;
   height: 100px;
+}
+.login a,
+.registation a {
+  font-size: 14px;
+  margin: 5px 0px;
+  text-decoration: none;
+  color: rgb(18, 111, 188);
 }
 .login .btn,
 .registation .btn {
@@ -72,14 +82,16 @@
   outline: none;
   width: 100%;
   max-width: 270px;
-  background: rgb(142, 142, 142);
-  color: aliceblue;
+  background: transparent;
+  color: rgb(97, 97, 97);
+  box-shadow: 2px 2px 5px -2px rgb(48, 48, 48), -1px -1px 4px 1px rgb(255, 255, 255);
   transition: 0.3s;
   cursor: pointer;
 }
 .login .btn:hover,
 .registation .btn:hover {
-  background: rgb(35, 35, 35);
+  box-shadow: inset 1px 1px 4px -1px rgb(48, 48, 48), inset -1px -1px 4px 1px rgb(255, 255, 255);
+  color: #00adb6;
 }
 
 .registation {
